@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .date-range {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .date-range div {
+    margin-right: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #3B82F6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1E3A8A;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+h1{
+    font-size: 50px;
+    color: white;
+}
+#output {
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}

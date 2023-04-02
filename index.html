@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Easy Trip</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="text-center">Easy Trip</h1>
+    <form>
+      <div class="input-group">
+        <label for="place">Place of Visit</label>
+        <input type="text" id="place" name="place" placeholder="Enter place of visit">
+      </div>
+      <div class="input-group">
+        <div class="date-range">
+          <div>
+            <label for="start">Start Date</label>
+            <input type="date" id="start" name="start">
+          </div>
+          <div>
+            <label for="end">End Date</label>
+            <input type="date" id="end" name="end">
+          </div>
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <textarea id="output" name="output" rows="10" cols="50" placeholder="Output will be displayed here"></textarea>
+  </body>
+</html>
